@@ -1,67 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Portfolio.css">
-    <title>Pradeepthi Portfolio</title>
+    <title>Pradeepthi's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <div class="container">
-            <h1> Name</h1>
-            <p>PRADEEPTHI KANIKIREDDY</p>
-        </div>
+    <header class="header">
+        <div class="logo"><i><b>Pradeepthi Portfolio</b></i></div>
+        <nav class="navbar">
+            <a href="#home"><i>Home</i></a>
+            <a href="#about"><i>About</i></a>
+            <a href="#contact"><i>Contact</i></a>
+        </nav>
     </header>
 
-    <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>I am Pradeepthi Kanikireddy, pursuing 3rd Year in Internet Of Things in  Gurunanak Institution Technical Campus. </p>
-        </div>
-    </section>
-
-    <section id="skills">
-        <div class="container">
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>Java</li>
-                <li>python</li>
-                
-            </ul>
-        </div>
-    </section>
-
-    <section id="projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="project">
-                <h3>Project 1</h3>
-                <p>Description of Project 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <section class="home" id="home">
+        <div class="home-container">
+            <div class="home-content">
+                <h1>Pradeepthi Kanikireddy</h1>
+                <p>Passionate about Internet of Things</p>
             </div>
-            <div class="project">
-                <h3>Project 2</h3>
-                <p>Description of Project 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-content">
+            <h1>About Me</h1>
+            <p>
+                Hi, I'm Pradeepthi, a student at Gurunanak Institutions, currently exploring the world of
+                Computer Science and Internet of Things. I enjoy turning ideas into reality through coding.
+            </p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/pradeepthi-kanikireddy-0124a6267/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://twitter.com/pradeepthi"><i class='bx bxl-twitter'></i></a>
+                <a href="https://github.com/pdeepthi12"><i class='bx bxl-github'></i></a>
             </div>
-            <!-- Add more projects as needed -->
         </div>
     </section>
 
-    <section id="contact">
-        <div class="container">
-            <h2>Contact</h2>
-            <p>Feel free to reach out to me:</p>
-            <p>Email: pradeepthikaniki@gmail.com</p>
-            <p>LinkedIn:https://onedrive.live.com/edit?id=2A7ECDB1C124CB8D!s0b7d6c43ea4a4c0ca09c068f4b94feae&resid=2A7ECDB1C124CB8D!s0b7d6c43ea4a4c0ca09c068f4b94feae&cid=2a7ecdb1c124cb8d&ithint=file%2Cdocx&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3cvYy8yYTdlY2RiMWMxMjRjYjhkL0VVTnNmUXRLNmd4TW9Kd0dqMHVVX3E0QjQ5cnVtaHBkcUdHZHN0bm9HanotUEE&migratedtospo=true&wdo=2 </p>
-        </div>
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <p>Let's work together! Reach out to me for collaboration or just to say hello.</p>
+
+        <form action="#">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
     </section>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 pradeepthi. thanks for viewing.</p>
-        </div>
-    </footer>
 </body>
+
 </html>
