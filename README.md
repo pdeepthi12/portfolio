@@ -31,6 +31,9 @@ git remote set-head origin -a
 ```bash
 git clone https://github.com/pdeepthi12/portfolio.git
 ```
-- cd portfolio
+#### Change to the cloned repository directory:
+```bash
+cd portfolio
+```
 
 
