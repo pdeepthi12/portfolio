@@ -1,0 +1,156 @@
+/* Reset and Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Playfair Display', serif; 
+    background-color: #8C7DA8;
+    color: red;
+}
+
+/* Header Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #64557B;
+    color: #fff;
+}
+
+.logo {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 24px;
+    color: #CB7876;
+}
+
+.navbar {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+    color: #81B2D9;
+}
+
+/* Home Section Styles */
+.home {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(to bottom, #8C7DA8, #8C7DA8);
+    color: #fff;
+}
+
+.home-content {
+    max-width: 600px;
+}
+
+.home-content h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+/* About Section Styles */
+.about {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #8C7DA8;
+    color: #fff;
+}
+
+.about-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.about-content h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #fff;
+}
+
+.social-media {
+    display: inline-flex;;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+}
+
+/* Contact Section Styles */
+.contact {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #8C7DA8;
+    color: #fff;
+}
+
+.contact h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+form button {
+    cursor: pointer;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #8C7DA8;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+form button:hover {
+    background-color: #7440a1;
+    color: #fff;
+}
